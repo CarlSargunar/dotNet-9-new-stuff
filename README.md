@@ -13,6 +13,12 @@ This repo has a bunch of samples that show off new features in .NET 9.
     dotnet new install Aspire.ProjectTemplates::9.0.0 --force
 ```
 
+To  create the sample project, run the following
+
+```bash
+    dotnet new aspire-starter --use-redis-cache --output Aspire
+```
+
 - New dashboard features
   - Manage resource lifecycles - stop, start, restart individual services
   - Combine telemetry from multiple sources (e.g. when a service has multiple instances)
